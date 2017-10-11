@@ -15,7 +15,7 @@ class GreeterApp(Flask):
 
     def greet(self):
         self.greetings += 1
-        return 'Hello! Welcome to my public page!'
+        return 'Hello! Welcome to my public page @ PythonAnywhere!'
 
 
 app = GreeterApp(__name__)
